@@ -1,0 +1,15 @@
+Hello all,
+
+I've been working in a toy pad event display to visualize the shape of the tracks on the sensor pad for the small study of track finder through the pad info. I called toy because it only shows the pads "lighten" by the particle. Perhaps in the future, some color code associated with the time or the multiplicity could be added. Future...
+
+It's kernel is based on an event display I use with the GRINCH detector prototype, so maybe there are pieces of code without any sense, but they don't interfere with the display.
+
+Right now, it is a ROOT script, and the user should modify the input file, the tree name and the pad variable according to their root file format. I think it is very straigh forward how to do it.
+
+If you are curious, the repository is this one:
+
+https://urldefense.proofpoint.com/v2/url?u=https-3A__github.com_ayerbeg_BONuS-5Ftoy-5FED&d=DwICaQ&c=lz9TcOasaINaaC3U7FbMev2lsutwpI4--09aP8Lu18s&r=N-j4tlws25fr4xci2CBErMdzSu6580sw-SWM-JVxqAk&m=NanEAeemZXEixFwWy2270KI2PuOBXdXFDckTWOILRWc&s=z2Z9UVIBQ3qww6zP55iydlA1xfY8CihXgCPRUTQfZr4&e=
+
+Have fun
+
+-Carlos
